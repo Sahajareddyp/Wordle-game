@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f5ef">
+<title>Word Garden · A little word play</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script>
+</head>
+<body><main class="shell">
+<header><a class="brand" href="/"><span class="brand-icon">w.</span> WORD GARDEN</a><button class="help" id="help" aria-label="How to play">?</button></header>
+<section class="intro"><span class="eyebrow">A LITTLE WORD PLAY</span><h1>Make every letter count.</h1><p>One hidden word. Five chances to find it.</p></section>
+<section class="game" aria-label="Word guessing game"><div class="game-meta"><span><i></i> FREE PLAY</span><span id="counter">GUESS 1 / 5</span></div>
+<div id="board" role="group" aria-label="Your guesses"></div><p id="message" role="status" aria-live="polite">Plant your first five-letter word.</p>
+<div id="keyboard" aria-label="Letter keyboard"></div><div class="bottom"><span>Type or tap to play</span><button id="new-game">New game ↗</button></div></section>
+<footer><span class="leaf">✳</span> A fresh word, a fresh start.<br><small>An independent word game. Not affiliated with The New York Times.</small></footer>
+</main><dialog id="instructions"><button id="close-help" aria-label="Close instructions">×</button><span class="eyebrow">THE GROUND RULES</span><h2>A little deduction.<br>A lot of possibility.</h2><p>Find the hidden five-letter word in five guesses. Every guess must be in the word list.</p><div class="legend"><span class="tile correct">G</span><p>Right letter, right place.</p><span class="tile present">A</span><p>Right letter, different place.</p><span class="tile absent">R</span><p>No unused match for this letter.</p></div><p>Repeated letters only receive credit as many times as they appear in the answer. Invalid words don't use a turn.</p><button id="lets-play" class="primary">Let's play</button></dialog></body></html>
