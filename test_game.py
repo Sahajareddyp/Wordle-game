@@ -1,6 +1,6 @@
 import unittest
 import server
-from wordle import compare
+from word_garden import compare
 
 class GameTests(unittest.TestCase):
     def setUp(self):

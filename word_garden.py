@@ -59,7 +59,7 @@ def main():
         else:
             print(compare(guess, secret_word))
             if attempt_num == 4:
-                print("The Wordle word was:", secret_word)
+                print("The Word Garden word was:", secret_word)
             else:
                 print("try again")
 

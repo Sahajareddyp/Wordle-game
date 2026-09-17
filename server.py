@@ -3,7 +3,7 @@ import secrets
 from pathlib import Path
 from flask import Flask, jsonify, request, send_from_directory
 from werkzeug.exceptions import HTTPException
-from wordle import clean_guesses, clean_words, compare, random_word
+from word_garden import clean_guesses, clean_words, compare, random_word
 
 ROOT = Path(__file__).resolve().parent
 ALLOWED = set(clean_guesses) | set(clean_words)

@@ -1,6 +1,6 @@
 # 🌿 Word Garden
 
-A small, Wordle-inspired game built with Python and Flask. Find a hidden five-letter word in five guesses, using colored clues to guide your next move.
+A small word-guessing game built with Python and Flask. Find a hidden five-letter word in five guesses, using colored clues to guide your next move.
 
 **[Play Word Garden →](https://word-garden-1jdj.onrender.com)**
 
@@ -56,8 +56,8 @@ Use Python 3.12 to match the included Render configuration.
 Clone the repository and enter its folder:
 
 ```bash
-git clone https://github.com/Sahajareddyp/Wordle-game.git
-cd Wordle-game
+git clone https://github.com/Sahajareddyp/Wordle-game.git word-garden
+cd word-garden
 ```
 
 ### Windows PowerShell
@@ -81,7 +81,7 @@ Open **http://127.0.0.1:8000** in your browser. Keep the terminal running while 
 To play the original terminal version from the project folder:
 
 ```bash
-python wordle.py
+python word_garden.py
 ```
 
 On macOS/Linux, use `python3` if your system does not provide a `python` command. The terminal version uses only Python's standard library.
@@ -90,7 +90,7 @@ On macOS/Linux, use `python3` if your system does not provide a `python` command
 
 | File | Purpose |
 | --- | --- |
-| `wordle.py` | Word loading, shared scoring logic, and terminal game |
+| `word_garden.py` | Word loading, shared scoring logic, and terminal game |
 | `server.py` | Flask routes, validation, and in-memory game sessions |
 | `index.html` | Page structure and instructions |
 | `style.css` | Responsive layout, colors, and tile styling |
